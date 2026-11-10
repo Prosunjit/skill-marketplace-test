@@ -1,0 +1,20 @@
+{
+  "name": "personal-workflows",
+  "interface": {
+    "displayName": "My Personal Workflows"
+  },
+  "plugins": [
+    {
+      "name": "git-coach",
+      "source": {
+        "source": "local",
+        "path": "./plugins/git-coach"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
